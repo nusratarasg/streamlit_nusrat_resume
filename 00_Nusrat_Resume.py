@@ -55,7 +55,8 @@ st.sidebar.markdown("## [Linkdin Profile](%s)" % url)
 
 resume="https://docs.google.com/document/d/1LNrWJQcSmP94qqB1Av8h3aIUQOxukj2spCY74o6pVls/edit?usp=sharing"
 st.sidebar.markdown("## [Download Resume](%s)" % resume)
-ml_apps="https://penguin-nusrat-streamlit.herokuapp.com/"
+#ml_apps="https://penguin-nusrat-streamlit.herokuapp.com/"
+ml_apps="https://iris-nusrat-streamlit.herokuapp.com/"
 st.sidebar.markdown("## [Sample ML App](%s)" % ml_apps)
 
 st.sidebar.markdown('### Wish to connect?')
