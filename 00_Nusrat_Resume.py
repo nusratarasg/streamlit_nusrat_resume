@@ -68,10 +68,10 @@ st.sidebar.write('Email: nusratarasg@gmail.com')
 # txt = st.text_area('Text to analyze', value='It was the best of times')
 
 #st.balloons()
-st.title('My Journey of Data Science - Timelines: ')
-with open('timeline.json', "r") as f:
-    data = f.read()
-timeline(data, height=500)
+#st.title('My Journey of Data Science - Timelines: ')
+# with open('timeline.json', "r") as f:
+#     data = f.read()
+# timeline(data, height=500)
 
 # 
 st.title('Technical Skills and Tools: ')
