@@ -27,7 +27,7 @@ st.write('#### Nusrat Ara Riaz')
 # components.html(''' <p><b><i>Nusrat Ara Riaz</i></b></p> ''', height=50)
 
 components.html('''
-<h2 align="justify" style="font-weight:normal"> Motivated Data Scientist skilled in 1.  Data Analysis and Predictive Data Analysis (using ML algorithms), 2. Python data analysis libraries (Pandas, Numpy, Plotly, Matplotlib, etc.), 3. Python Streamlit (to Develop shareable web apps in minutes), 4. Claris FileMaker, 5. SQL & Data Modeling, 6. Agile Software Development, 7. Software Prototyping & StoryBoarding, 8. UML & BPMN, 9. Software Testing & Quality Assurance </h2>
+<h2 align="justify" style="font-weight:normal"> Motivated Data Scientist skilled in 1.  Data Analysis and Predictive Data Analysis (using ML algorithms), 2. Python data analysis libraries (Pandas, Numpy, Plotly, Matplotlib, etc.), 3. Streamlit (to Develop shareable web apps in minutes), 4. Claris FileMaker, 5. SQL & Data Modeling, 6. Agile Software Development, 7. Software Prototyping & StoryBoarding, 8. UML & BPMN, 9. Software Testing & Quality Assurance </h2>
 ''',
 height=160)
  
@@ -55,8 +55,7 @@ st.sidebar.markdown("## [Linkdin Profile](%s)" % url)
 
 resume="https://docs.google.com/document/d/1LNrWJQcSmP94qqB1Av8h3aIUQOxukj2spCY74o6pVls/edit?usp=sharing"
 st.sidebar.markdown("## [Download Resume](%s)" % resume)
-#ml_apps="https://penguin-nusrat-streamlit.herokuapp.com/"
-ml_apps="https://iris-nusrat-streamlit.herokuapp.com/"
+ml_apps="https://penguin-nusrat-streamlit.herokuapp.com/"
 st.sidebar.markdown("## [Sample ML App](%s)" % ml_apps)
 
 st.sidebar.markdown('### Wish to connect?')
@@ -69,10 +68,30 @@ st.sidebar.write('Email: nusratarasg@gmail.com')
 # txt = st.text_area('Text to analyze', value='It was the best of times')
 
 #st.balloons()
+#
+col1, col2, col3 = st.columns([1,4,1])
+
+
+
+with col1:
+    pass
+
+
+
+with col2:
+    st.header("Data Science / Data Analysis Pyramid")
+    st.image("pyramid.jpg")
+
+
+
+with col3:
+    pass
+#
 st.title('My Journey of Data Science - Timelines: ')
 with open('timeline.json', "r") as f:
     data = f.read()
 timeline(data, height=500)
+#
 
 # 
 st.title('Technical Skills and Tools: ')
@@ -80,10 +99,11 @@ with st.expander("Click + to expand: ", expanded = False):
     components.html('''
     <h3 align="justify" style="font-weight:normal">
     <ol>
-    <li>Predictive Data Analysis - Python, Pandas, Matplotlib, Numpy, etc.</li>
-    <li>Python Programming for Data Science</li>
+    <li>Data Analysis - Python, Pandas, Matplotlib, Numpy, etc.</li>
+    <li>Machine Learning Algorithms <i>Scikit-Learn</i> and <i>TensorFlow</i></li>
+    <li>Streamlit (to Develop shareable web apps in minutes)</li>  
     <li>FileMaker RAD Development(FileMaker Rel. 12 - 19) -- (7+ Years)</li>
-    <li>Software Quality Analyst (Software Testing, <br>Software Quality Assurance) - 15+ Years</li>
+    <li>Software Quality Analyst (Software Testing, <br>Software Quality Assurance) - 10+ Years</li>
     <li>Database Development (SQL, ERD) (10+ Years)</li>
     <li>Agile Software Development (SCRUM, <br>ICONIX, User Stories, Product Backlog, Sprint Backlog, Sprint execution)</li>
     <li>Object Oriented Software Engineering (UML, BPMN)</li>
