@@ -27,7 +27,7 @@ st.write('#### Nusrat Ara Riaz')
 # components.html(''' <p><b><i>Nusrat Ara Riaz</i></b></p> ''', height=50)
 
 components.html('''
-<h2 align="justify" style="font-weight:normal"> Motivated Data Scientist skilled in 1.  Data Analysis and Predictive Data Analysis (using ML algorithms), 2. Python data analysis libraries (Pandas, Numpy, Plotly, Matplotlib, etc.), 3. Streamlit (to Develop shareable web apps in minutes), 4. Claris FileMaker, 5. SQL & Data Modeling, 6. Agile Software Development, 7. Software Prototyping & StoryBoarding, 8. UML & BPMN, 9. Software Testing & Quality Assurance </h2>
+<h2 align="justify" style="font-weight:normal"> Motivated Data Scientist skilled in 1.  Data Analysis and Predictive Data Analysis (using ML algorithms), 2. Python data analysis libraries (Pandas, Numpy, Plotly, Matplotlib, etc.), 3. Streamlit (to Develop shareable web apps in minutes), 4. Claris FileMaker, 5. SQL & Data Modeling, 6. Agile Software Development, 7. Software Prototyping & StoryBoarding, 8. UML & BPMN, 9. Software Testing & Quality Assurance,10. Business Apps Domain , 11. Health Informatics Domain </h2>
 ''',
 height=160)
  
